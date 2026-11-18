@@ -1,0 +1,16 @@
+# Large downloaded dataset and generated artifacts
+pcb_data/
+*.joblib
+*.npy
+.firecrawl/
+
+# Notebook checkpoints and local environment files
+.ipynb_checkpoints/
+.env
+__pycache__/
+
+# Contains student name, ID, and contact information
+Proposal.docx
+
+# Local project-management notes
+COMPLETION_CHECKLIST.md
