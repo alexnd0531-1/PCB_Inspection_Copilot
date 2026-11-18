@@ -58,7 +58,6 @@ The first run downloads and extracts the dataset. Then run the notebook from top
 ## Repository contents
 
 - `PCB_Inspection.ipynb` - dataset preparation, model training, evaluation, helper tools, and Gradio interface.
-- `COMPLETION_CHECKLIST.md` - current project status and handoff notes.
 - `README.md` - project overview and setup instructions.
 
 ## Limitations
@@ -68,8 +67,3 @@ The first run downloads and extracts the dataset. Then run the notebook from top
 - The defect-type model is less reliable than the triage model, especially for classes with limited evaluation data.
 - The data and trained model artifacts are intentionally excluded from version control.
 
-## Next steps
-
-- Re-evaluate Model B on the test set using its selected 0.80 threshold.
-- Add the batch-review panel to the Gradio interface.
-- Capture final screenshots and prepare the course presentation.
